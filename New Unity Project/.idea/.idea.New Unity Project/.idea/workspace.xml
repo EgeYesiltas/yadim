@@ -10,6 +10,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChracterController.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="1rigGTorZmW9T36FWNgvHK1iQcG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,6 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619464232656</updated>
       <workItem from="1619464239216" duration="19000" />
+      <workItem from="1619509821224" duration="1772000" />
+      <workItem from="1619511623037" duration="1714000" />
     </task>
     <servers />
   </component>
