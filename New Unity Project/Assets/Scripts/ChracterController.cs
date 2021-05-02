@@ -8,14 +8,12 @@ public class ChracterController : MonoBehaviour
     public float speed;
     public float jumpForce;
     private float moveInput;
-    public float distance;
-    public LayerMask whatIsLadder;
     private bool isClimbing;
     private float inputVertical;
     private float inputHorizontal;
-    public float climbingSpeed;
 
     private Rigidbody2D rb;
+    private Animator anim;
 
     private bool facingRight = true;
 
@@ -33,24 +31,14 @@ public class ChracterController : MonoBehaviour
     {
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
-    void x()
-    {
-        if (isClimbing = true)
-        {
-            inputVertical = Input.GetAxisRaw("Vertical");
-            rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
-            rb.gravityScale = 0;
-            Debug.Log("x");
-        }
-    }
+    
 
     void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, ceheckRadius, whatIsGround);
-
-        
 
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
@@ -63,37 +51,21 @@ public class ChracterController : MonoBehaviour
             Flip();
         }
 
-     
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, distance, whatIsLadder);
-
-        if (hitInfo.collider != null)
-        {
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                isClimbing = true;
-            }
-        }else {
-            isClimbing = false;
-        }
-
-        if (isClimbing == true)
-        {
-            inputVertical = Input.GetAxisRaw("Vertical");
-            rb.velocity = new Vector2(rb.velocity.x, inputVertical * climbingSpeed);
-            rb.gravityScale = 0;
-           
-        }else{
-            rb.gravityScale = 1;
-        }
-
-        if (isClimbing == true)
-        {
-            Debug.Log("tırmanıyo");
-        }else {
-            Debug.Log("tırmanmıyor");
-        }
-
         
+            
+        if(isGrounded == false)
+        {
+            anim.SetBool("zıplıyo", true);
+        }else {
+            anim.SetBool("zıplıyo", false);
+        }
+
+        if (moveInput > 0 || moveInput < 0)
+        {
+            anim.SetBool("yürüyo", true);
+        }else{
+            anim.SetBool("yürüyo",false);
+        }
     }
 
     void Update()
@@ -120,4 +92,5 @@ public class ChracterController : MonoBehaviour
         Scaler.x *= -1;
         transform.localScale = Scaler;
     }
+    
 }

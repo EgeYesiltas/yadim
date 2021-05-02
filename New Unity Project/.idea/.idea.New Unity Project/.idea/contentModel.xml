@@ -6,8 +6,16 @@
     <e p="C:\Users\egeye\Documents\GitHub\yadim\New Unity Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="MainMenu.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="boxpull.cs" t="Include" />
+          <e p="CameraFallow.cs" t="Include" />
           <e p="ChracterController.cs" t="Include" />
+          <e p="Dialouge.cs" t="Include" />
+          <e p="DialougeManager.cs" t="Include" />
+          <e p="DialougeTrigger.cs" t="Include" />
+          <e p="Ladder.cs" t="Include" />
+          <e p="playerpush.cs" t="Include" />
         </e>
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />

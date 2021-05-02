@@ -18,9 +18,20 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialougeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialouge.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialougeTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialougeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/boxpull.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/boxpull.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/playerpush.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChracterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ladder.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rigGTorZmW9T36FWNgvHK1iQcG" />
@@ -69,6 +80,23 @@
       <workItem from="1619511623037" duration="1714000" />
       <workItem from="1619523190425" duration="1777000" />
       <workItem from="1619524999038" duration="626000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1619539180709" duration="767000" />
+      <workItem from="1619612816494" duration="104000" />
+      <workItem from="1619629833595" duration="1767000" />
+      <workItem from="1619631970832" duration="775000" />
+      <workItem from="1619686160961" duration="792000" />
+      <workItem from="1619695135186" duration="1714000" />
+      <workItem from="1619696950402" duration="1544000" />
+      <workItem from="1619701372979" duration="4000" />
+      <workItem from="1619701397881" duration="1774000" />
+      <workItem from="1619703226208" duration="1774000" />
+      <workItem from="1619707322171" duration="1776000" />
+      <workItem from="1619709177210" duration="3197000" />
+      <workItem from="1619945499280" duration="1769000" />
+      <workItem from="1619953693107" duration="756000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
