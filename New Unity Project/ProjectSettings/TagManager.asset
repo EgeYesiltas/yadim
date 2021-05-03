@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Babam
-  - pyshable
   - pushable
+  - Babam
   layers:
   - Default
   - TransparentFX
@@ -14,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Zemin
-  - Merdiven
-  - "da\u015F"
+  - "ZEM\u0130N"
+  - merdiven
+  - "DA\u015E"
   - 
   - 
   - 
@@ -44,21 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< Updated upstream
-=======
-  - name: Platform
-    uniqueID: 4105960761
+  - name: BackGround
+    uniqueID: 2584486137
     locked: 0
   - name: New Layer
-    uniqueID: 1971306223
+    uniqueID: 429890613
     locked: 0
-  - name: Background
-    uniqueID: 4237129437
+  - name: New Layer
+    uniqueID: 3706801407
     locked: 0
-  - name: Zemin
-    uniqueID: 542696611
+  - name: zemin
+    uniqueID: 4020934801
+    locked: 0
+  - name: Merdiven
+    uniqueID: 3500272813
     locked: 0
   - name: Karakter
-    uniqueID: 324913693
+    uniqueID: 431142511
     locked: 0
->>>>>>> Stashed changes
