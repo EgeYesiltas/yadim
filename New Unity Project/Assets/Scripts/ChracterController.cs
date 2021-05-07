@@ -92,5 +92,39 @@ public class ChracterController : MonoBehaviour
         Scaler.x *= -1;
         transform.localScale = Scaler;
     }
+
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("pushable"))
+        {
+            anim.SetBool("itiriyor", true);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Merdiven"))
+        {
+            anim.SetBool("tırmanıyo", true);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("pushable"))
+        {
+            anim.SetBool("itiriyor", false);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Merdiven"))
+        {
+            anim.SetBool("tırmanıyo", false);
+        }
+    }
+    
     
 }

@@ -15,15 +15,19 @@ public class Mining : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        anim.SetBool("kazıyo", true);
-        print("on trigger");
-        if (other.gameObject.CompareTag("Demir") && Input.GetKey(KeyCode.E))
+        if(other.gameObject.CompareTag("Demir"))
         {
-            print("x");
-            other.GetComponent<SpriteRenderer>().enabled = false;
-            other.GetComponent<BoxCollider2D>().enabled = false;
-            other.GetComponent<CircleCollider2D>().enabled = false;
-            anim.SetBool("kazıyo", false);
+            anim.SetBool("kazıyo", true);
+            print("on trigger");
+            if(Input.GetKey(KeyCode.E))
+            {
+                anim.SetBool("kazıyo", true);
+                print("x");
+                other.GetComponent<SpriteRenderer>().enabled = false;
+                other.GetComponent<BoxCollider2D>().enabled = false;
+                other.GetComponent<CircleCollider2D>().enabled = false;
+                anim.SetBool("kazıyo", false);
+            }
         }
     }
 

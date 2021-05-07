@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
@@ -34,5 +35,12 @@ public class Score : MonoBehaviour
             AltınSayisi.text = "Score" + BaslagicAltınSayısı;
         }
     }
-    
+
+    private void FixedUpdate()
+    {
+        if (BaslagicAltınSayısı == 3)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
 }

@@ -13,6 +13,7 @@ TagManager:
   - "Alt\u0131nBar"
   - DemirBar
   - AltinBar
+  - Tas
   layers:
   - Default
   - TransparentFX
