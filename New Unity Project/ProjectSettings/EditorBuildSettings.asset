@@ -12,6 +12,36 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 759c44da8d8f24e4e80a5b47c22acb6d
   - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/1.konu\u015Fma.unity"
+    guid: 301b1d2fbea77ac47bd5560fa2da7f40
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/2.konu\u015Fma.unity"
+    guid: da2396ddc8dbaeb49b6ad98be5003382
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/3.konu\u015Fma.unity"
+    guid: 2c7d33c365198a24581dbc100a2b1f3a
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/4.konu\u015Fma.unity"
+    guid: 624003690db3ef644a960a72fc579c6c
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/5.konu\u015Fma.unity"
+    guid: 87d5775d5422d4845ba253e448d28d9f
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/6.konu\u015Fma.unity"
+    guid: a165280f56ea322449c7f42b552f3ba2
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/7.konu\u015Fma.unity"
+    guid: a266da1492568334dbe8ce4f0a227182
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/8.konu\u015Fma.unity"
+    guid: 395921382ba693849969a7aa6d5e66c0
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/9.konu\u015Fma.unity"
+    guid: 5ed9509fd40d8984fb5cbc12bff4cadd
+  - enabled: 1
+    path: "Assets/Scenes/Konu\u015Fmalar/10.konu\u015Fma.unity"
+    guid: 183261df2a12ec64aaeebfad9dfa952e
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 4dd1cc9e96a219447b5896a6969d4970
   m_configObjects: {}
